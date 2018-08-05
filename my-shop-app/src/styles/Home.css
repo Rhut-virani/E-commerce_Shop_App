@@ -1,0 +1,37 @@
+.home{
+  color: #f2f2f2;
+}
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+  
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+  
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+.al-md{
+top: 80%;
+transform: translateY(25%); 
+height: 80vh;
+}
+
+
+.wd30{
+width: 30vw;
+left: 50%;
+transform: translateX(-50%); 
+margin: 3% 0;
+}
+
+.form-control:focus{
+border-color: #cccccc;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
